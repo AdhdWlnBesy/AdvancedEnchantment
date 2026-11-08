@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:advanced_enchantments",
+  "criteria": {
+    "advanced_anvil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "advanced_enchants:advanced_enchants_anvil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsadvanced_anvil_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:advanced_enchants_anvil"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsadvanced_anvil"
+    }
+  },
+  "requirements": [
+    [
+      "advanced_anvil"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

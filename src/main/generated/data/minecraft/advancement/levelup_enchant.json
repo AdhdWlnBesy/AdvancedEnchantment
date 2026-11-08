@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:advanced_anvil",
+  "criteria": {
+    "levelup_enchant": {
+      "conditions": {
+        "event_type": "levelup_enchant"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantslevelup_enchant_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:ordinary_levelup_ball"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantslevelup_enchant"
+    }
+  },
+  "requirements": [
+    [
+      "levelup_enchant"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

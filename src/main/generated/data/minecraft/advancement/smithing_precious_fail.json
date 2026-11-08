@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:smithing_fail",
+  "criteria": {
+    "smithing_precious_fail": {
+      "conditions": {
+        "event_type": "smithing_precious_fail"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantssmithing_precious_fail_description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:precious_enchants_scroll"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantssmithing_precious_fail"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_precious_fail"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

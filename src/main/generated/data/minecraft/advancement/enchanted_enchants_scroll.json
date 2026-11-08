@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:empty_scroll",
+  "criteria": {
+    "enchanted_enchants_scroll": {
+      "conditions": {
+        "event_type": "enchanted_enchants_scroll"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsenchanted_enchants_scroll_description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:enchanted_scroll"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsenchanted_enchants_scroll"
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_enchants_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

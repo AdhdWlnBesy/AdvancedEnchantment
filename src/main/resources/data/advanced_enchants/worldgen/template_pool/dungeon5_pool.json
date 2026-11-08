@@ -1,0 +1,14 @@
+{
+  "name": "advanced_enchants:dungeon5_pool",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "advanced_enchants:dungeon5",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element",
+      "override_liquid_settings": "ignore_waterlogging"
+    }
+  }]
+}

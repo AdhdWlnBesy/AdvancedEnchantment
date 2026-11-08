@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:smithing_success_full",
+  "criteria": {
+    "smithing_success_all_full": {
+      "conditions": {
+        "event_type": "smithing_success_all_full"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantssmithing_success_all_full_description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "minecraft:enchantments": {
+          "levels": {
+            "minecraft:protection": 1
+          }
+        }
+      },
+      "count": 1,
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantssmithing_success_all_full"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_success_all_full"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

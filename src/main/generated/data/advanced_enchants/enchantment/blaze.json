@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.advanced_enchants.blaze"
+  },
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 100.0
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 4
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/crossbow",
+  "weight": 1
+}

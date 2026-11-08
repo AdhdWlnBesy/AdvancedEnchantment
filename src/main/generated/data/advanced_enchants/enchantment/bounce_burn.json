@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.advanced_enchants.bounce_burn"
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 4
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

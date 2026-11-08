@@ -1,0 +1,45 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.advanced_enchants.blast_ward"
+  },
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.5,
+            "per_level_above_first": 2.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_explosion"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 3,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

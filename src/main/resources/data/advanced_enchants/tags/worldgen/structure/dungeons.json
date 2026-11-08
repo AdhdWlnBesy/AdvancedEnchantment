@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "advanced_enchants:dungeon1",
+    "advanced_enchants:dungeon2",
+    "advanced_enchants:dungeon3",
+    "advanced_enchants:dungeon4",
+    "advanced_enchants:dungeon5"
+  ]
+}

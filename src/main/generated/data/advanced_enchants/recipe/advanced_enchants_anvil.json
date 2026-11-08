@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:anvil"
+    },
+    "D": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "E": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "DCD",
+    "EDE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_enchants:advanced_enchants_anvil"
+  }
+}

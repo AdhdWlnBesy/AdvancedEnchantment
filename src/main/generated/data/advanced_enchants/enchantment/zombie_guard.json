@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.advanced_enchants.zombie_guard"
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 3
+  },
+  "slots": [
+    "legs"
+  ],
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "weight": 1
+}

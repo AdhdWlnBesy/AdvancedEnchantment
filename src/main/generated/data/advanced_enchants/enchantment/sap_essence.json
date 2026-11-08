@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 0,
+  "description": {
+    "translate": "enchantment.advanced_enchants.sap_essence"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "advanced_enchants:sap_essence"
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 4
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 1
+}

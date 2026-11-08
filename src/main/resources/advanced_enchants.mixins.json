@@ -1,0 +1,47 @@
+{
+  "required": true,
+  "package": "com.advanced_enchants.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "enchantment.ArrowRainAndReforge",
+    "enchantment.Combo",
+    "enchantment.Critical",
+    "enchantment.CurveAxe",
+    "enchantment.FreezeAndHeaviness",
+    "enchantment.Gambler",
+    "enchantment.LavaWalker",
+    "enchantment.LeapStrike",
+    "enchantment.MagicWard",
+    "enchantment.Smelting",
+    "enchantment.SoulBind",
+    "enchantment.ThunderCall",
+    "enchantment.handler.ArmorHitEnchantmentHandler",
+    "enchantment.handler.BowEnchantmentHandler",
+    "enchantment.handler.FishingRodEnchantmentHandler",
+    "enchantment.handler.ShieldEnchantmentHandler",
+    "entity.DungeonCreeperMixin",
+    "entity.DungeonEndermanMixin",
+    "entity.DungeonEntityMixin",
+    "entity.DungeonShulkerMixin",
+    "entity.DungeonWardenMixin",
+    "entity.LevelupWorldMob",
+    "entity.PiglinBrainInvoker",
+    "entity.PlayerMixinImpl",
+    "item.AdvancedSlotsShow",
+    "item.FishingBobberMixin",
+    "item.NoShowEnchantOnItemGroup",
+    "item.ResetAdvancedSlots",
+    "item.SetDefaultItemComponent",
+    "item.SpawnAdvancedObject",
+    "other.SetStatusEffectDuration"
+  ],
+  "client": [
+    "item.SetEnchDescDefaultTrue"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

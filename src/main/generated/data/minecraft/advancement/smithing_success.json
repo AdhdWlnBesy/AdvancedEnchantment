@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:smithing_table",
+  "criteria": {
+    "smithing_success": {
+      "conditions": {
+        "event_type": "smithing_success"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantssmithing_success_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:ordinary_enchants_scroll"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantssmithing_success"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_success"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

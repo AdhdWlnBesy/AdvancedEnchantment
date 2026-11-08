@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:advanced_enchantments",
+  "criteria": {
+    "mob_levelup": {
+      "conditions": {
+        "event_type": "mob_levelup"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsmob_levelup_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsmob_levelup"
+    }
+  },
+  "requirements": [
+    [
+      "mob_levelup"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

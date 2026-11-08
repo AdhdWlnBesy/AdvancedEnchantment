@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "advanced_enchants:dungeon3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 728909774,
+    "spacing": 28,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

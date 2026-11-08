@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "compendium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "advanced_enchants:advanced_enchants_compendium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/polished_diorite.png",
+    "description": {
+      "translate": "advancements.advanced_enchantsroot_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:advanced_enchants_compendium"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.advanced_enchantsroot"
+    }
+  },
+  "requirements": [
+    [
+      "compendium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

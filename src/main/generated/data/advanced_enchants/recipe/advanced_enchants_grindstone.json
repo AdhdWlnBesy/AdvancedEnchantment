@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:grindstone"
+    },
+    "D": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    "DBD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_enchants:advanced_enchants_grindstone"
+  }
+}

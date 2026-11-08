@@ -1,0 +1,8 @@
+// 1.21.1	2026-10-24T11:54:11.1301831	Advanced Enchantments/Tags for minecraft:entity_type
+9047c80c99c20b1b1628e0607ebb961e5d274d39 data\advanced_enchants\tags\entity_type\spider.json
+da9ec5f7ed64a0d225e00ee60b8e6d6408b431fb data\advanced_enchants\tags\entity_type\creeper.json
+0a28dfff1a3d8350b9d7777492ca9d8155d7da31 data\advanced_enchants\tags\entity_type\zombie_skeleton.json
+e3876165fc22c4d0ab9c6496ffb0a28f73ee68ae data\advanced_enchants\tags\entity_type\overworld.json
+60a6e892545f4f85fa115797f7989a411474df55 data\advanced_enchants\tags\entity_type\ender_mob.json
+37fd8135f6a1a0eed58f4fe0ee63a6e536b9c202 data\advanced_enchants\tags\entity_type\monster.json
+980e2256ab18832e1d39df0d995376e6ba5d8d22 data\advanced_enchants\tags\entity_type\nether_mob.json

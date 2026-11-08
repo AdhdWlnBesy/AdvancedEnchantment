@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "#advanced_enchants:overworld",
+      "required": false
+    },
+    {
+      "id": "#advanced_enchants:nether_mob",
+      "required": false
+    },
+    {
+      "id": "#advanced_enchants:ender_mob",
+      "required": false
+    }
+  ]
+}

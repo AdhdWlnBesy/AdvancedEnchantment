@@ -1,0 +1,5 @@
+// 1.21.1	2026-10-24T11:54:11.1311808	Advanced Enchantments/Tags for minecraft:block
+a47d40083cfc2baa2c703060394362dbbe0b7dda data\minecraft\tags\block\needs_iron_tool.json
+b169f00a527bdad8d1f9eb82339fc0c160dbb461 data\advanced_enchants\tags\block\ores.json
+a47d40083cfc2baa2c703060394362dbbe0b7dda data\minecraft\tags\block\mineable\pickaxe.json
+020fd5b54fa4d4a5ad8d5f7cae8d5c0dcddfc675 data\advanced_enchants\tags\block\ore_block.json

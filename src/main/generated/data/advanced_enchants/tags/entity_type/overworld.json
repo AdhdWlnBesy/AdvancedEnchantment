@@ -1,0 +1,29 @@
+{
+  "values": [
+    {
+      "id": "#advanced_enchants:zombie_skeleton",
+      "required": false
+    },
+    {
+      "id": "#advanced_enchants:creeper",
+      "required": false
+    },
+    "minecraft:witch",
+    {
+      "id": "#advanced_enchants:spider",
+      "required": false
+    },
+    "minecraft:phantom",
+    "minecraft:slime",
+    "minecraft:silverfish",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:pillager",
+    "minecraft:vindicator",
+    "minecraft:evoker",
+    "minecraft:vex",
+    "minecraft:ravager",
+    "minecraft:breeze",
+    "minecraft:warden"
+  ]
+}
