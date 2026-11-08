@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 /**
  * 阻止地牢末影人瞬移。
  *
- * @see DungeonTeleportInterface
+ * @see com.advanced_enchants.entity.duckInterface.DungeonTeleportInterface
  */
 @Mixin(EndermanEntity.class)
 public abstract class DungeonEndermanMixin implements DungeonTeleportInterface {

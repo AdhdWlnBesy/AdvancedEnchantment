@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 /**
  * 重置高级附魔槽位的 Mixin。
  *
- * @see AdvancedSlotsShow
+ * @see com.advanced_enchants.mixin.item.AdvancedSlotsShow
  */
 @Mixin(GrindstoneScreenHandler.class)
 public class ResetAdvancedSlots {

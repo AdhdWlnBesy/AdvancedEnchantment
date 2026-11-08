@@ -9,8 +9,6 @@ import java.util.concurrent.CompletableFuture;
 
 /**
  * 世界生成数据生成器。
- *
- * @see ModStructures
  */
 public class WorldProvider extends FabricDynamicRegistryProvider {
     public WorldProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {

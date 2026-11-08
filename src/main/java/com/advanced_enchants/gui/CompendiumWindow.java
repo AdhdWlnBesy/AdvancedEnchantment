@@ -28,7 +28,7 @@ import java.util.Set;
 /**
  * 附魔指南界面。
  *
- * @see OpenCompendium
+ * @see com.advanced_enchants.event.OpenCompendium
  */
 public class CompendiumWindow extends Screen {
     private static final int WINDOW_WIDTH = 146;

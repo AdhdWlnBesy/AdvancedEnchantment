@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * 高级附魔槽位显示的 Mixin。
  *
- * @see ModScreenHandler
+ * @see com.advanced_enchants.register.ModScreenHandler
  */
 @Mixin(value = {Item.class, ShieldItem.class})
 public class AdvancedSlotsShow {

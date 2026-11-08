@@ -14,7 +14,7 @@ import java.util.Optional;
 /**
  * 简单进度触发器。
  *
- * @see AdvancementProvider
+ * @see com.advanced_enchants.datagen.AdvancementProvider
  */
 public class SimpleCriterion extends AbstractCriterion<SimpleCriterion.Conditions> {
     // 触发一次进度。

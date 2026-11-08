@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 /**
  * 高级砂轮界面。
  *
- * @see GrindstoneScreenHandler
+ * @see com.advanced_enchants.gui.GrindstoneScreenHandler
  */
 public class GrindstoneScreen extends HandledScreen<GrindstoneScreenHandler> {
     @Override

@@ -12,7 +12,7 @@ import net.minecraft.screen.slot.Slot;
 /**
  * 卷轴使用限制。
  *
- * @see BookToScroll
+ * @see com.advanced_enchants.event.BookToScroll
  */
 public class ForbidScroll {
     // 注册卷轴使用限制。

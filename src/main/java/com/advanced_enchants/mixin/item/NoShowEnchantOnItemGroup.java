@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 /**
  * 物品组中隐藏附魔书的 Mixin。
  *
- * @see ModItemGroups
+ * @see com.advanced_enchants.register.ModItemGroups
  */
 @Mixin(ItemGroups.class)
 public class NoShowEnchantOnItemGroup {

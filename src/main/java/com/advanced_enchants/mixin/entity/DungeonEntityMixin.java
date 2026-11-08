@@ -19,7 +19,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 /**
  * 地牢实体通用行为的 Mixin。
  *
- * @see DungeonEntityInterface
+ * @see com.advanced_enchants.entity.duckInterface.DungeonEntityInterface
  */
 @Mixin(MobEntity.class)
 public abstract class DungeonEntityMixin implements DungeonEntityInterface {

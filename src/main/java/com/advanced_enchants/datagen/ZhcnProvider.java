@@ -13,7 +13,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 中文语言文件生成器。
  *
- * @see EnusProvider
+ * @see com.advanced_enchants.datagen.EnusProvider
  */
 public class ZhcnProvider extends FabricLanguageProvider {
     private static TranslationBuilder transBuilder;

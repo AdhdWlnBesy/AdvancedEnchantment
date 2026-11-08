@@ -26,7 +26,7 @@ import java.util.Objects;
 /**
  * 高级锻造台界面逻辑。
  *
- * @see SmithingScreen
+ * @see com.advanced_enchants.gui.SmithingScreen
  */
 public class SmithingScreenHandler extends ScreenHandler {
     public final Inventory inventory;

@@ -13,7 +13,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 物品标签生成器。
  *
- * @see ModTags
+ * @see com.advanced_enchants.register.ModTags
  */
 public class ItemTagsProvider extends FabricTagProvider.ItemTagProvider {
     public ItemTagsProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {

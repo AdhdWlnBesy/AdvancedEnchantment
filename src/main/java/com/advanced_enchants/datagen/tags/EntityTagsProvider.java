@@ -11,7 +11,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 实体标签生成器。
  *
- * @see ModTags
+ * @see com.advanced_enchants.register.ModTags
  */
 public class EntityTagsProvider extends FabricTagProvider.EntityTypeTagProvider {
     public EntityTagsProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {

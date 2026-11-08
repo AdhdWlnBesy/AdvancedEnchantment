@@ -19,7 +19,7 @@ import net.minecraft.world.World;
 /**
  * 地牢刷怪笼方块。
  *
- * @see DungeonSpawnerBlockEntity
+ * @see com.advanced_enchants.block.spawner.DungeonSpawnerBlockEntity
  */
 public class DungeonSpawnerBlock extends DungeonBlock {
     public DungeonSpawnerBlock(Settings settings) {

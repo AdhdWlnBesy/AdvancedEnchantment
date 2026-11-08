@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.At;
 /**
  * 设置物品默认组件的 Mixin。
  *
- * @see ModDataComponentTypes
+ * @see com.advanced_enchants.register.ModDataComponentTypes
  */
 @Mixin(Item.Settings.class)
 public abstract class SetDefaultItemComponent {

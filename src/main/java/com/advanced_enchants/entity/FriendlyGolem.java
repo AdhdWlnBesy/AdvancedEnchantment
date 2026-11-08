@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 /**
  * 友好型铁傀儡。
  *
- * @see FriendlyZombie
+ * @see com.advanced_enchants.entity.FriendlyZombie
  */
 public class FriendlyGolem extends IronGolemEntity {
     private int despawnCounter = 300;

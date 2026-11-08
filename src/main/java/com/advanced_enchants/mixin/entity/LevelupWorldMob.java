@@ -21,7 +21,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 /**
  * 世界怪物等级成长的 Mixin。
  *
- * @see MobLevelupAdvancement
+ * @see com.advanced_enchants.event.MobLevelupAdvancement
  */
 @Mixin(MobEntity.class)
 public class LevelupWorldMob {

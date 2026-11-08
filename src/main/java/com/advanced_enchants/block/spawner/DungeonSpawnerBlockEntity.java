@@ -41,7 +41,7 @@ import java.util.UUID;
 /**
  * 地牢刷怪笼方块实体，负责刷怪与波次。
  *
- * @see DungeonSpawnerBlock
+ * @see com.advanced_enchants.block.spawner.DungeonSpawnerBlock
  */
 
 public class DungeonSpawnerBlockEntity extends BlockEntity {

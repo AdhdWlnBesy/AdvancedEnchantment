@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 /**
  * 地牢末影人。
  *
- * @see DungeonEndermanMixin
+ * @see com.advanced_enchants.mixin.entity.DungeonEndermanMixin
  */
 public class DungeonEnderman extends EndermanEntity {
     public DungeonEnderman(World world) {

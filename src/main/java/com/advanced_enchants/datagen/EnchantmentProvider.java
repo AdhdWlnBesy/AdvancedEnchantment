@@ -47,7 +47,7 @@ import static com.advanced_enchants.enchantment.EnchantmentTypes.*;
 /**
  * 附魔数据生成器。
  *
- * @see ModEnchantments
+ * @see com.advanced_enchants.register.ModEnchantments
  */
 public class EnchantmentProvider {
     private static Registerable<Enchantment> registerable;

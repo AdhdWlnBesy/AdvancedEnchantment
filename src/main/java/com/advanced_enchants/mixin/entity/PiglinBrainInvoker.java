@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 /**
  * 猪灵 AI 的访问器。
  *
- * @see FriendlyPiglin
+ * @see com.advanced_enchants.entity.FriendlyPiglin
  */
 @Mixin(PiglinBrain.class)
 public interface PiglinBrainInvoker {

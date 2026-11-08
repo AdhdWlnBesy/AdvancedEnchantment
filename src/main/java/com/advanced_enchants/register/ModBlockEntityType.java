@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 /**
  * 方块实体类型注册。
  *
- * @see DungeonVaultBlockEntity
+ * @see com.advanced_enchants.block.vault.DungeonVaultBlockEntity
  */
 public class ModBlockEntityType {
     public static final BlockEntityType<DungeonVaultBlockEntity> DUNGEON_VAULT =

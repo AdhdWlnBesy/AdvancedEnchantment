@@ -3,7 +3,7 @@ package com.advanced_enchants.entity.duckInterface;
 /**
  * 禁止瞬移标记接口。
  *
- * @see DungeonEndermanMixin
+ * @see com.advanced_enchants.mixin.entity.DungeonEndermanMixin
  */
 public interface DungeonTeleportInterface {
     /**

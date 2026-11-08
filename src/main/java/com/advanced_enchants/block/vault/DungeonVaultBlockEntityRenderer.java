@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 /**
  * 地牢宝库方块实体的渲染。
  *
- * @see DungeonVaultBlockEntity
+ * @see com.advanced_enchants.block.vault.DungeonVaultBlockEntity
  */
 public class DungeonVaultBlockEntityRenderer implements BlockEntityRenderer<DungeonVaultBlockEntity> {
     public DungeonVaultBlockEntityRenderer(BlockEntityRendererFactory.Context ctx) {

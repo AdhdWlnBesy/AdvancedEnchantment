@@ -6,7 +6,7 @@ import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 /**
  * 首次进服给予附魔指南。
  *
- * @see OpenCompendium
+ * @see com.advanced_enchants.event.OpenCompendium
  */
 public class GiveCompendium {
     // 首次进服时发放附魔指南。

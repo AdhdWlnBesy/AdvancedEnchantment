@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 /**
  * 高级锻造台的网络同步。
  *
- * @see SmithingScreenHandler
+ * @see com.advanced_enchants.gui.SmithingScreenHandler
  */
 public class SmithingNetWorking {
     public static volatile boolean SMITH_SUCCESS = false;

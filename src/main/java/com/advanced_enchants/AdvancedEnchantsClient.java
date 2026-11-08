@@ -18,7 +18,7 @@ import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 /**
  * 客户端入口，注册客户端渲染与事件。
  *
- * @see AdvancedEnchantment
+ * @see com.advanced_enchants.AdvancedEnchantment
  */
 public class AdvancedEnchantsClient implements ClientModInitializer {
     @Override

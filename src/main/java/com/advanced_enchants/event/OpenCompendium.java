@@ -11,7 +11,7 @@ import net.minecraft.util.TypedActionResult;
 /**
  * 打开附魔指南界面。
  *
- * @see CompendiumWindow
+ * @see com.advanced_enchants.gui.CompendiumWindow
  */
 public class OpenCompendium {
     // 注册打开附魔指南的交互。

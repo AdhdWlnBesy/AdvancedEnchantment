@@ -1,6 +1,5 @@
 package com.advanced_enchants.enchantment.effect;
 
-import com.advanced_enchants.mixin.enchantment.handler.BowEnchantmentHandler;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -8,7 +7,7 @@ import net.minecraft.server.network.ServerPlayerEntity;
 /**
  * 弓附魔效果接口，命中触发
  *
- * @see BowEnchantmentHandler
+ * @see com.advanced_enchants.mixin.enchantment.handler.BowEnchantmentHandler
  */
 public interface BowEnchantmentEffect extends BaseEnchantmentEffect {
     /**

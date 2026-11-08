@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 /**
  * 模组物品注册。
  *
- * @see ModBlocks
+ * @see com.advanced_enchants.register.ModBlocks
  */
 public class ModItems {
     private static int count = 0;

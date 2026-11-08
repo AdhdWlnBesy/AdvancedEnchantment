@@ -12,7 +12,7 @@ import net.minecraft.registry.RegistryKeys;
 /**
  * 数据生成入口，汇总各数据生成器。
  *
- * @see AdvancementProvider
+ * @see com.advanced_enchants.datagen.AdvancementProvider
  */
 public class AdvancedEnchantmentDataGenerator implements DataGeneratorEntrypoint {
     @Override

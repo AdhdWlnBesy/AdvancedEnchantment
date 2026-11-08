@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 /**
  * 界面处理器注册。
  *
- * @see AnvilScreenHandler
+ * @see com.advanced_enchants.gui.AnvilScreenHandler
  */
 public class ModScreenHandler {
     public static final ScreenHandlerType<SmithingScreenHandler> SMITHING_TYPE = register("smithing", SmithingScreenHandler::new);

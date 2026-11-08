@@ -19,7 +19,7 @@ import net.minecraft.sound.SoundEvents;
 /**
  * 高级铁砧界面逻辑。
  *
- * @see AnvilScreen
+ * @see com.advanced_enchants.gui.AnvilScreen
  */
 public class AnvilScreenHandler extends ScreenHandler {
     public final Inventory inventory;

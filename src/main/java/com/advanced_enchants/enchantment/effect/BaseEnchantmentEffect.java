@@ -1,7 +1,6 @@
 package com.advanced_enchants.enchantment.effect;
 
 import com.advanced_enchants.event.EnchantTrigNetWorking;
-import com.advanced_enchants.event.EnchantTrigRenderer;
 import com.advanced_enchants.register.ModAPI;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.registry.RegistryKey;
@@ -28,7 +27,7 @@ public interface BaseEnchantmentEffect {
      *
      * @param level 附魔等级
      * @return 附魔触发概率
-     * @see Chance
+     * @see com.advanced_enchants.enchantment.effect.BaseEnchantmentEffect.Chance
      */
     @NotNull Chance getChance(int level);
 
@@ -37,8 +36,8 @@ public interface BaseEnchantmentEffect {
      * 可重写为false
      *
      * @return 是否发包
-     * @see EnchantTrigNetWorking
-     * @see EnchantTrigRenderer
+     * @see com.advanced_enchants.event.EnchantTrigNetWorking
+     * @see com.advanced_enchants.event.EnchantTrigRenderer
      */
     default boolean shouldSendPacket() {
         return true;

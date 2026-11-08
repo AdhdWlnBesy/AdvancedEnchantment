@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * 附魔触发提示的客户端渲染。
  *
- * @see EnchantTrigNetWorking
+ * @see com.advanced_enchants.event.EnchantTrigNetWorking
  */
 public class EnchantTrigRenderer {
     public final static Map<Text, Integer> texts = new HashMap<>();

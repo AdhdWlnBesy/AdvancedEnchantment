@@ -7,7 +7,7 @@ import net.minecraft.world.World;
 /**
  * 地牢潜影贝。
  *
- * @see DungeonShulkerMixin
+ * @see com.advanced_enchants.mixin.entity.DungeonShulkerMixin
  */
 public class DungeonShulker extends ShulkerEntity {
     public DungeonShulker(World world) {

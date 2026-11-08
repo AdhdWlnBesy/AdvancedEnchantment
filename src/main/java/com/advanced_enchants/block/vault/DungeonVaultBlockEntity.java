@@ -31,7 +31,7 @@ import java.util.UUID;
 /**
  * 地牢宝库方块实体，负责奖池与抽奖。
  *
- * @see DungeonVaultBlock
+ * @see com.advanced_enchants.block.vault.DungeonVaultBlock
  */
 public class DungeonVaultBlockEntity extends BlockEntity {
     public DungeonVaultBlockEntity(BlockPos pos, BlockState state) {

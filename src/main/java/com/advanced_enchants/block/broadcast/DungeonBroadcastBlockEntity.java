@@ -2,7 +2,6 @@ package com.advanced_enchants.block.broadcast;
 
 import com.advanced_enchants.block.DungeonBlock;
 import com.advanced_enchants.block.spawner.DungeonSpawnerBlockEntity;
-import com.advanced_enchants.block.vault.DungeonVaultBlockEntity;
 import com.advanced_enchants.datagen.AdvancementProvider;
 import com.advanced_enchants.register.ModAPI;
 import com.advanced_enchants.register.ModBlockEntityType;
@@ -43,7 +42,7 @@ import java.util.stream.IntStream;
 /**
  * 地牢主控方块实体，负责波次、范围和战斗进度。
  *
- * @see DungeonBroadcastBlock
+ * @see com.advanced_enchants.block.broadcast.DungeonBroadcastBlock
  */
 
 @SuppressWarnings("SpellCheckingInspection")
@@ -139,7 +138,7 @@ public class DungeonBroadcastBlockEntity extends BlockEntity {
     }
 
     /**
-     * @see DungeonVaultBlockEntity
+     * @see com.advanced_enchants.block.vault.DungeonVaultBlockEntity
      */
     @Override
     public NbtCompound toInitialChunkDataNbt(RegistryWrapper.WrapperLookup registryLookup) {

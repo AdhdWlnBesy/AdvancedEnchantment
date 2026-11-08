@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 /**
  * 地牢监守者行为的 Mixin。
  *
- * @see DungeonEntityMixin
+ * @see com.advanced_enchants.mixin.entity.DungeonEntityMixin
  */
 @Mixin(WardenEntity.class)
 public abstract class DungeonWardenMixin {

@@ -18,7 +18,7 @@ import java.util.ArrayList;
 /**
  * 高级砂轮界面逻辑。
  *
- * @see GrindstoneScreen
+ * @see com.advanced_enchants.gui.GrindstoneScreen
  */
 public class GrindstoneScreenHandler extends ScreenHandler {
     public final Inventory inventory;

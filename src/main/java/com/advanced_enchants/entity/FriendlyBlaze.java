@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 /**
  * 友好型烈焰人。
  *
- * @see FriendlyZombie
+ * @see com.advanced_enchants.entity.FriendlyZombie
  */
 public class FriendlyBlaze extends BlazeEntity {
     private int despawnCounter = 300;

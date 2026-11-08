@@ -18,7 +18,7 @@ import net.minecraft.world.World;
 /**
  * 地牢方块基类。
  *
- * @see DungeonVaultBlock
+ * @see com.advanced_enchants.block.vault.DungeonVaultBlock
  */
 public abstract class DungeonBlock extends BlockWithEntity {
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;

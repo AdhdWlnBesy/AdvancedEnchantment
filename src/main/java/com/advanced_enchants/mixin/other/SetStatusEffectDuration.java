@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 /**
  * 修改状态效果时长的 Mixin。
  *
- * @see DungeonEntityMixin
+ * @see com.advanced_enchants.mixin.entity.DungeonEntityMixin
  */
 @Mixin(StatusEffectInstance.class)
 public interface SetStatusEffectDuration {

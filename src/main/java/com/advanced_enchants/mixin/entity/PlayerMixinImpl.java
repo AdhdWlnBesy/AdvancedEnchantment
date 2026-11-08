@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 /**
  * 玩家扩展接口的实现。
  *
- * @see PlayerInterface
+ * @see com.advanced_enchants.entity.duckInterface.PlayerInterface
  */
 @Mixin(PlayerEntity.class)
 public class PlayerMixinImpl implements PlayerInterface {

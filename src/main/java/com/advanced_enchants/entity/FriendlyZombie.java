@@ -15,7 +15,7 @@ import net.minecraft.world.World;
 /**
  * 友好型僵尸。
  *
- * @see FriendlySkeleton
+ * @see com.advanced_enchants.entity.FriendlySkeleton
  */
 public class FriendlyZombie extends ZombieEntity {
     private int despawnCounter = 300;

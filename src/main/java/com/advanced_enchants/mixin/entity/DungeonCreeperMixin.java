@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 /**
  * 地牢苦力怕行为的 Mixin。
  *
- * @see DungeonCreeper
+ * @see com.advanced_enchants.entity.DungeonCreeper
  */
 @Mixin(CreeperEntity.class)
 public abstract class DungeonCreeperMixin {

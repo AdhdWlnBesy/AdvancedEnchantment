@@ -24,7 +24,7 @@ import java.util.Objects;
 /**
  * 地牢主控方块。
  *
- * @see DungeonBroadcastBlockEntity
+ * @see com.advanced_enchants.block.broadcast.DungeonBroadcastBlockEntity
  */
 public class DungeonBroadcastBlock extends DungeonBlock {
     public DungeonBroadcastBlock(Settings settings) {

@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 /**
  * 地牢潜影贝行为的 Mixin。
  *
- * @see DungeonShulker
+ * @see com.advanced_enchants.entity.DungeonShulker
  */
 @Mixin(ShulkerEntity.class)
 public abstract class DungeonShulkerMixin implements DungeonTeleportInterface {

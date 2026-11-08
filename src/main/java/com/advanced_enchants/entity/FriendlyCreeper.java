@@ -14,7 +14,7 @@ import net.minecraft.world.World;
 /**
  * 友好型苦力怕。
  *
- * @see FriendlyZombie
+ * @see com.advanced_enchants.entity.FriendlyZombie
  */
 public class FriendlyCreeper extends CreeperEntity {
     private int despawnCounter = 300;

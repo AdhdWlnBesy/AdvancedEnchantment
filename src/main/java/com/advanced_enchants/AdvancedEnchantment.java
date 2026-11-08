@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 模组主入口，负责注册内容与初始化事件。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class AdvancedEnchantment implements ModInitializer {
     public static final String MOD_ID = "advanced_enchants";

@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * 弓的附魔效果处理类，当箭射中目标触发
  *
- * @see BowEnchantmentEffect
+ * @see com.advanced_enchants.enchantment.effect.BowEnchantmentEffect
  */
 @Mixin(PersistentProjectileEntity.class)
 public class BowEnchantmentHandler {

@@ -18,7 +18,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 配方数据生成器。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class RecipesProvider extends FabricRecipeProvider {
     public RecipesProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {

@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 /**
  * 高级锻造台界面。
  *
- * @see SmithingScreenHandler
+ * @see com.advanced_enchants.gui.SmithingScreenHandler
  */
 public class SmithingScreen extends HandledScreen<SmithingScreenHandler> {
     public SmithingScreen(SmithingScreenHandler handler, PlayerInventory inventory, Text title) {

@@ -11,7 +11,7 @@ import net.minecraft.util.dynamic.Codecs;
 /**
  * 模组数据组件注册。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class ModDataComponentTypes {
     public static final ComponentType<Integer> ADVANCED_SLOTS =

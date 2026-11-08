@@ -9,7 +9,7 @@ import net.minecraft.world.World;
 /**
  * 怪物升级进度。
  *
- * @see AdvancementProvider
+ * @see com.advanced_enchants.datagen.AdvancementProvider
  */
 public class MobLevelupAdvancement {
     // 注册怪物升级进度。

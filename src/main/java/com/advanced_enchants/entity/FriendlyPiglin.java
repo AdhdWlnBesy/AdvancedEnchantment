@@ -11,7 +11,7 @@ import net.minecraft.world.World;
 /**
  * 友好型猪灵。
  *
- * @see FriendlyZombie
+ * @see com.advanced_enchants.entity.FriendlyZombie
  */
 public class FriendlyPiglin extends PiglinEntity {
     private int despawnCounter = 300;

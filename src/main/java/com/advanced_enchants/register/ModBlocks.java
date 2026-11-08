@@ -20,7 +20,7 @@ import net.minecraft.util.Identifier;
 /**
  * 模组方块注册。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class ModBlocks {
     public static final Block ADVANCED_ENCHANTS_SMITHING_TABLE = registerBlocks("advanced_enchants_smithing_table", new AdvancedSmithingTableBlock());

@@ -1,6 +1,5 @@
 package com.advanced_enchants.event;
 
-import com.advanced_enchants.block.vault.DungeonVaultBlockEntity;
 import com.advanced_enchants.register.ModAPI;
 import com.advanced_enchants.register.ModBlocks;
 import com.advanced_enchants.register.ModItems;
@@ -26,7 +25,7 @@ import java.util.List;
 /**
  * 宝库抽奖事件。
  *
- * @see DungeonVaultBlockEntity
+ * @see com.advanced_enchants.block.vault.DungeonVaultBlockEntity
  */
 @Deprecated
 public class VaultLottery {

@@ -1,6 +1,5 @@
 package com.advanced_enchants.entity;
 
-import com.advanced_enchants.mixin.entity.DungeonCreeperMixin;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -16,7 +15,7 @@ import net.minecraft.world.explosion.ExplosionBehavior;
 /**
  * 地牢苦力怕。
  *
- * @see DungeonCreeperMixin
+ * @see com.advanced_enchants.mixin.entity.DungeonCreeperMixin
  */
 public class DungeonCreeper extends CreeperEntity {
     public DungeonCreeper(EntityType<? extends CreeperEntity> entityType, World world) {

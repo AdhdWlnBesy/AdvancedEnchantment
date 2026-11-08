@@ -15,7 +15,7 @@ import net.minecraft.util.Identifier;
 /**
  * 模型数据生成器。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class ModelsProvider extends FabricModelProvider {
     private static BlockStateModelGenerator blockStateModelGenerator;

@@ -30,7 +30,7 @@ import static com.advanced_enchants.enchantment.EnchantmentTypes.*;
 /**
  * 模组附魔注册与效果表。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class ModEnchantments {
     public static final List<RegistryKey<Enchantment>> ADVANCED_ENCHANTMENTS = new ArrayList<>();

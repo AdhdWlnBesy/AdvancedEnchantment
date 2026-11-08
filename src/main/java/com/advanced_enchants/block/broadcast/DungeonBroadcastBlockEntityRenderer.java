@@ -17,7 +17,7 @@ import net.minecraft.util.math.Vec3d;
 /**
  * 地牢主控方块实体的文字渲染。
  *
- * @see DungeonBroadcastBlockEntity
+ * @see com.advanced_enchants.block.broadcast.DungeonBroadcastBlockEntity
  */
 public class DungeonBroadcastBlockEntityRenderer implements BlockEntityRenderer<DungeonBroadcastBlockEntity> {
     public DungeonBroadcastBlockEntityRenderer(BlockEntityRendererFactory.Context ctx) {

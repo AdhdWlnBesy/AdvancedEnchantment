@@ -26,7 +26,7 @@ import java.util.List;
 /**
  * 地牢宝库方块。
  *
- * @see DungeonVaultBlockEntity
+ * @see com.advanced_enchants.block.vault.DungeonVaultBlockEntity
  */
 public class DungeonVaultBlock extends DungeonBlock {
     public DungeonVaultBlock(Settings settings) {

@@ -16,7 +16,7 @@ import net.minecraft.util.Identifier;
 /**
  * 模组物品组注册。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class ModItemGroups {
     public static final RegistryKey<ItemGroup> ADVANCED_ENCHANTS_GROUPS = register();//创建物品栏

@@ -18,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 /**
  * 生成高级对象的 Mixin。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 @Mixin(EnchantmentScreenHandler.class)
 public abstract class SpawnAdvancedObject {

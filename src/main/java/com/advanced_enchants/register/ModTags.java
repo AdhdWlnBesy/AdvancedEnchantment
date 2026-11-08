@@ -12,7 +12,7 @@ import net.minecraft.world.gen.structure.Structure;
 /**
  * 模组标签注册。
  *
- * @see ModBlocks
+ * @see com.advanced_enchants.register.ModBlocks
  */
 public class ModTags {
     public static final TagKey<Item> ADVANCED_ENCHANTS_SCROLL = itemOf("advanced_enchants_scroll");

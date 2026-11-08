@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 /**
  * 高级铁砧界面。
  *
- * @see AnvilScreenHandler
+ * @see com.advanced_enchants.gui.AnvilScreenHandler
  */
 public class AnvilScreen extends HandledScreen<AnvilScreenHandler> {
     @Override

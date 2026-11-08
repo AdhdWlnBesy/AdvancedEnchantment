@@ -21,7 +21,7 @@ import java.util.Random;
 /**
  * 附魔书转卷轴的交互逻辑。
  *
- * @see ModItems
+ * @see com.advanced_enchants.register.ModItems
  */
 public class BookToScroll {//将附魔书转换为卷轴
 

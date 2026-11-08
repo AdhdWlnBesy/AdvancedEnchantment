@@ -30,7 +30,7 @@ import java.util.function.Consumer;
 /**
  * 进度数据生成器。
  *
- * @see SimpleCriterion
+ * @see com.advanced_enchants.event.SimpleCriterion
  */
 public class AdvancementProvider extends FabricAdvancementProvider {
     public AdvancementProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {

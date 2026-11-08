@@ -18,7 +18,7 @@ import static com.advanced_enchants.event.EnchantTrigRenderer.texts;
 /**
  * 附魔触发提示的网络同步。
  *
- * @see EnchantTrigRenderer
+ * @see com.advanced_enchants.event.EnchantTrigRenderer
  */
 public class EnchantTrigNetWorking {
     // 注册附魔触发同步包。
