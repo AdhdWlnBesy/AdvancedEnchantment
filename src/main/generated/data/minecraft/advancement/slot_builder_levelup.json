@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:advanced_anvil",
+  "criteria": {
+    "slot_builder_levelup": {
+      "conditions": {
+        "event_type": "slot_builder_levelup"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsslot_builder_levelup_description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:level1_slot_builder"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsslot_builder_levelup"
+    }
+  },
+  "requirements": [
+    [
+      "slot_builder_levelup"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

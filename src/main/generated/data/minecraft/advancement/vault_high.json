@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:vault",
+  "criteria": {
+    "vault_high": {
+      "conditions": {
+        "event_type": "vault_high"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsvault_high_description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:dungeon_vault"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsvault_high"
+    }
+  },
+  "requirements": [
+    [
+      "vault_high"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

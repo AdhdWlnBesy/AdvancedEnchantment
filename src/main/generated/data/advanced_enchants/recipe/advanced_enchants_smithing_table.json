@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "minecraft:smithing_table"
+    },
+    "E": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "F": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_enchants:advanced_enchants_smithing_table"
+  }
+}

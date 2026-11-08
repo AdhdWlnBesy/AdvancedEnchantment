@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:advanced_grindstone",
+  "criteria": {
+    "empty_scroll": {
+      "conditions": {
+        "items": [
+          {
+            "items": "advanced_enchants:empty_scroll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsempty_scroll_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:empty_scroll"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsempty_scroll"
+    }
+  },
+  "requirements": [
+    [
+      "empty_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

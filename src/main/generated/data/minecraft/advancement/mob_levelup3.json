@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:mob_levelup2",
+  "criteria": {
+    "mob_levelup3": {
+      "conditions": {
+        "event_type": "mob_levelup3"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsmob_levelup3_description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsmob_levelup3"
+    }
+  },
+  "requirements": [
+    [
+      "mob_levelup3"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

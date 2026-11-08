@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "advanced_enchants:block/advanced_enchants_anvil",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "advanced_enchants:block/advanced_enchants_anvil",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "advanced_enchants:block/advanced_enchants_anvil"
+    },
+    "facing=west": {
+      "model": "advanced_enchants:block/advanced_enchants_anvil",
+      "y": 90
+    }
+  }
+}

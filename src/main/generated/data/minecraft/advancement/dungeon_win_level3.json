@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:dungeon_win",
+  "criteria": {
+    "dungeon_win_level3": {
+      "conditions": {
+        "event_type": "dungeon_win_level3"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsdungeon_win_level3_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_axe"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsdungeon_win_level3"
+    }
+  },
+  "requirements": [
+    [
+      "dungeon_win_level3"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

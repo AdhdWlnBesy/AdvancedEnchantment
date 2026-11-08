@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:advanced_grindstone",
+  "criteria": {
+    "reset_enchants_scroll": {
+      "conditions": {
+        "event_type": "reset_enchants_scroll"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsreset_enchants_scroll_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:advanced_enchants_book"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsreset_enchants_scroll"
+    }
+  },
+  "requirements": [
+    [
+      "reset_enchants_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

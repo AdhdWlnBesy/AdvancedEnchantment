@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:smithing_table",
+  "criteria": {
+    "smithing_fail": {
+      "conditions": {
+        "event_type": "smithing_fail"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantssmithing_fail_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantssmithing_fail"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_fail"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

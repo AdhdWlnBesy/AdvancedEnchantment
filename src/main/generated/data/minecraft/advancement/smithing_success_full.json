@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:smithing_success",
+  "criteria": {
+    "smithing_success_full": {
+      "conditions": {
+        "event_type": "smithing_success_full"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantssmithing_success_full_description"
+    },
+    "frame": "goal",
+    "icon": {
+      "components": {
+        "minecraft:enchantments": {
+          "levels": {
+            "minecraft:sharpness": 1
+          }
+        }
+      },
+      "count": 1,
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantssmithing_success_full"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_success_full"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

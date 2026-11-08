@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:advanced_enchantments",
+  "criteria": {
+    "smithing_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "advanced_enchants:advanced_enchants_smithing_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantssmithing_table_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:advanced_enchants_smithing_table"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantssmithing_table"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

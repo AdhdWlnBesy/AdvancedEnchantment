@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:paper"
+    },
+    "C": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CBC",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "advanced_enchants:empty_scroll"
+  }
+}

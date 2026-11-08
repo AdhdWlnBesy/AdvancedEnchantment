@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "advanced_enchants:block/dungeon_vault",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "advanced_enchants:block/dungeon_vault"
+    },
+    "facing=south": {
+      "model": "advanced_enchants:block/dungeon_vault",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "advanced_enchants:block/dungeon_vault",
+      "y": 270
+    }
+  }
+}

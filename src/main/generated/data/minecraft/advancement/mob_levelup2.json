@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:mob_levelup",
+  "criteria": {
+    "mob_levelup2": {
+      "conditions": {
+        "event_type": "mob_levelup2"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsmob_levelup2_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsmob_levelup2"
+    }
+  },
+  "requirements": [
+    [
+      "mob_levelup2"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

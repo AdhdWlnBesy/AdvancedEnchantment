@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:smithing_fail",
+  "criteria": {
+    "smithing_multiple_fail": {
+      "conditions": {
+        "event_type": "smithing_multiple_fail"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantssmithing_multiple_fail_description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantssmithing_multiple_fail"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_multiple_fail"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

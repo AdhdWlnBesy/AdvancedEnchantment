@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:dungeon",
+  "criteria": {
+    "dungeon_win": {
+      "conditions": {
+        "event_type": "dungeon_win"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsdungeon_win_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsdungeon_win"
+    }
+  },
+  "requirements": [
+    [
+      "dungeon_win"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

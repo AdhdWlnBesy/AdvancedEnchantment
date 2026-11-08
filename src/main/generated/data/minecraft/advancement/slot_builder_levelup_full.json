@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:slot_builder_levelup",
+  "criteria": {
+    "slot_builder_levelup_full": {
+      "conditions": {
+        "event_type": "slot_builder_levelup_full"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsslot_builder_levelup_full_description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:level3_slot_builder"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsslot_builder_levelup_full"
+    }
+  },
+  "requirements": [
+    [
+      "slot_builder_levelup_full"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_vault",
+  "textures": {
+    "bottom": "advanced_enchants:block/dungeon_spawner_bottom",
+    "front": "advanced_enchants:block/dungeon_spawner",
+    "side": "advanced_enchants:block/dungeon_spawner_side",
+    "top": "advanced_enchants:block/dungeon_spawner_top"
+  }
+}

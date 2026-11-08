@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:dungeon_win",
+  "criteria": {
+    "vault": {
+      "conditions": {
+        "event_type": "vault"
+      },
+      "trigger": "minecraft:simple_trigger"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.advanced_enchantsvault_description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "advanced_enchants:dungeon_vault"
+    },
+    "title": {
+      "translate": "advancements.advanced_enchantsvault"
+    }
+  },
+  "requirements": [
+    [
+      "vault"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
