@@ -15,7 +15,7 @@ import net.minecraft.world.World;
  * @see DungeonVaultBlockEntity
  */
 public class DungeonVaultBlockEntityRenderer implements BlockEntityRenderer<DungeonVaultBlockEntity> {
-    public DungeonVaultBlockEntityRenderer(BlockEntityRendererFactory.Context ctx) {
+    public DungeonVaultBlockEntityRenderer(BlockEntityRendererFactory.Context ignoredCtx) {
     }
 
     @Override

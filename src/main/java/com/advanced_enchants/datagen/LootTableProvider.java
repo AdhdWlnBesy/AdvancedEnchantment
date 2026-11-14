@@ -9,8 +9,6 @@ import java.util.concurrent.CompletableFuture;
 
 /**
  * 战利品表生成器。
- *
- * @see VaultLottery
  */
 public class LootTableProvider extends FabricBlockLootTableProvider {
     public LootTableProvider(FabricDataOutput dataOutput, CompletableFuture<RegistryWrapper.WrapperLookup> registryLookup) {

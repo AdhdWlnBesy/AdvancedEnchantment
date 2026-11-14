@@ -200,7 +200,7 @@ public class DungeonVaultBlockEntity extends BlockEntity {
         }
     }
 
-    public static void tick(World world, BlockPos pos, BlockState state, DungeonVaultBlockEntity vault) {
+    public static void tick(World world, BlockPos pos, BlockState ignoredState, DungeonVaultBlockEntity vault) {
         if (vault.load) { //重进时还原设置
             vault.state = 0;
             vault.tick = 0;
