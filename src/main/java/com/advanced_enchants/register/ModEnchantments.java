@@ -142,7 +142,7 @@ public class ModEnchantments {
     public static final RegistryKey<Enchantment> MORTAL_WARD = registerEnchantments("mortal_ward", PRECIOUS, new MortalWard());
     public static final RegistryKey<Enchantment> SOUL_BIND = registerEnchantments("soul_bind", NULL, new SoulBind());
 
-    private static RegistryKey<Enchantment> registerEnchantments(String id, EnchantmentTypes type, BaseEnchantmentEffect effect) {
+    public static RegistryKey<Enchantment> registerEnchantments(String id, EnchantmentTypes type, BaseEnchantmentEffect effect) {
         RegistryKey<Enchantment> key = RegistryKey.of(RegistryKeys.ENCHANTMENT, Identifier.of(AdvancedEnchantment.MOD_ID, id));
         switch (type) {
             case ORDINARY -> ORDINARY_LIST.add(key);

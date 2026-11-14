@@ -12,6 +12,7 @@ Advanced Enchantments 是一个面向 Minecraft **1.21.1** 的 Fabric 模组，
 - **高级工作台**：高级铁砧、高级砂轮、高级锻造台，支持自定义的附魔转移、去除与锻造逻辑。
 - **地牢**：五座不同主题的地牢，包含主控方块、刷怪笼、宝库、钥匙和对应的战利品池；结构会随世界生成并支持旋转。
 - **数据生成**：使用 Fabric Data Generation 生成进度、附魔、模型、配方、标签、战利品表和中英文语言文件。
+- 详情参阅MC百科
 
 ## 环境要求
 
@@ -25,17 +26,12 @@ Advanced Enchantments 是一个面向 Minecraft **1.21.1** 的 Fabric 模组，
 ## 构建
 
 项目使用 Gradle Wrapper，首次构建会自动下载依赖：
-
 ```bash
 ./gradlew build
 ```
-
-Windows 下使用：
-
 ```powershell
 .\gradlew.bat build
 ```
-
 构建产物位于 `build/libs/`。
 
 ## 项目结构
@@ -58,11 +54,11 @@ src/main/resources/
 
 ## 开发说明
 
-- 附魔实现位于 `com.advanced_enchants.enchantment`，按装备类型分目录。
-- 地牢结构定义位于 `src/main/resources/data/advanced_enchants/worldgen/structure`，模板池位于同目录的 `template_pool`。
+- 可通过在 `ModEnchantments.registerEnchantments` 里注册RegistryKey ， 注册json文件， 继承 `advanced_enchants.enchantment.effect`
+的接口以及加入`EnchantmentHandler`的列表实现附魔效果，来拓展一个高级附魔，相应的这个附魔会加入法术转换列表，也会显示在高级附魔图鉴中。
 - 修改注册内容后，可通过数据生成任务更新 `src/main/generated` 下的文件。
-- 本项目使用 CC0 1.0 许可，可自由使用、修改和分发。
+- 本项目使用 MIT 许可，可自由使用、修改和分发，但是要标注来源。
 
 ## 许可
 
-本项目采用 [CC0 1.0](LICENSE) 许可。
+本项目采用 [MIT](LICENSE) 许可。

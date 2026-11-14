@@ -20,7 +20,7 @@ import net.minecraft.util.math.Vec3d;
  * @see com.advanced_enchants.block.broadcast.DungeonBroadcastBlockEntity
  */
 public class DungeonBroadcastBlockEntityRenderer implements BlockEntityRenderer<DungeonBroadcastBlockEntity> {
-    public DungeonBroadcastBlockEntityRenderer(BlockEntityRendererFactory.Context ctx) {
+    public DungeonBroadcastBlockEntityRenderer(BlockEntityRendererFactory.Context ignoredCtx) {
     }
 
     @Override
